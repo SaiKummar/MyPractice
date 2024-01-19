@@ -89,7 +89,7 @@ namespace MyPractice.API.Controllers
             }
             catch (Exception)
             {
-                return BadRequest();
+                return BadRequest(ModelState);
             }
         }
 
